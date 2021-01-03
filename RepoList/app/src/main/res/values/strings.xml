@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RepoList</string>
+    <string name="error_title">"OOPS!"</string>
+    <string name="error_message">"No search results"</string>
+    <string name="error_button">"OK"</string>
+</resources>
