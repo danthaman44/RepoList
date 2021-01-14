@@ -5,6 +5,8 @@ import android.content.Context;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.repolist.models.RepoResultViewModel;
+
 public class RepoResultViewModelFactory implements ViewModelProvider.Factory {
 
     private Context mContext;

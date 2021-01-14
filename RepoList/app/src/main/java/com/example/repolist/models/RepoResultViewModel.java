@@ -6,6 +6,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.example.repolist.api.RepositoryRetriever;
+import com.example.repolist.models.Item;
 import com.example.repolist.models.RepoResult;
 
 public class RepoResultViewModel extends ViewModel {
@@ -45,5 +46,9 @@ public class RepoResultViewModel extends ViewModel {
 
     public void clearAllRepositories() {
         mRepositoryRetriever.clearAllItems();
+    }
+
+    public void clearRepository(Item repo) {
+        mRepositoryRetriever.clearItem(repo);
     }
 }
